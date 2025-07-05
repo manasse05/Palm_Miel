@@ -1,0 +1,121 @@
+body {
+    background-color: #000000;
+    color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body :hover{
+    text-decoration: underline;
+    cursor: pointer;
+   
+}
+
+div{
+    background-color: #fecafe;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2 0px;
+    margin: 2 0px;
+    width: 8 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+div :hover{
+    transform: scale(1.02);
+    box-shadow: 0.6px 1 2px rgba(0, 0, 0, 0.2);
+}
+
+header, footer{
+    background-color: #f0c419;
+    color: #1a1a1a;
+    text-align: center;
+    font-family: 'segoe UI', sans-serif;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+    
+    border-bottom: 2px solid#ccc;
+}
+header, footer :hover{
+   background-color: #f0c419;
+}
+a {
+    color: #e6c200;
+    text-decoration: none;
+}
+a :hover{
+    text-decoration: underline;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    background-color: #333333;
+    display:flex;
+    justify-content: center;
+}
+nav, ul, li{
+    margin: 0 15px;
+}
+nav,ul, li{
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav, ul, li :hover{
+    color:#ffffff;
+}
+section {
+    padding: 4 0px 2 0px;
+    background-color: #1a1a1a;
+    color: #f0c808;
+    margin: 2 0px 0;
+    border-radius: 1 0px;
+    box-shadow: 0 4px 1 0px rgba(0, 0, 0,0.4);
+    transition: background-color 0.3s ease;
+}
+section :hover{
+    background-color: #2e2e2e;
+}
+form {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: auto;
+}
+form label{
+    display: block;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #444444;
+    color: #ffffff;
+}
+
+form input[type="submit"]
+{background-color:#ffd700;
+color: #000000;
+cursor: pointer;
+font-weight: bold;
+}
+form input[type="submit"]
+:hover{
+    background-color: #e6c200;
+}
+button :hover, a:hover{
+background-color: #f0c419;
+cursor: pointer;
+text-decoration: underline;
+transition: background-color 0.3s ease;
+}
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rservation au PALM-MIEL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--En-tête-Menu-de-Navigation-->
+    <header>
+        <h1> Reservez Vôtre plats</h1>
+        <nav> 
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>&ThinSpace;&ThinSpace;&ThinSpace;
+            <li><a href="apropos.html">à Propos</a></li>&ThinSpace;&ThinSpace;&ThinSpace;
+            <li><a href="menu.html">Nos Menus</a></li>&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;
+            <li><a href="reservation.html">Reservation</a></li>&ThinSpace;&ThinSpace;&ThinSpace;
+            <li><a href="contact.html">Nous-Contacter</a></li>&ThinSpace;&ThinSpace;&ThinSpace;
+            <li><a href="offre.html">Nos Offres</a></li>
+        </ul>
+        </nav>
+    </header>
+     <!--Nos-Section-->
+     <section>
+        <h2>Formulaire de reservation</h2>
+        <div class="reserve">
+            <form action="fromulaire" method="post">
+
+                <label for="nom">Vôtre-Nom :</label>
+                <p><input type="text" placeholder="Name" id=""></p>
+
+                <label for="Prenom">Vôtre Prenom :</label>
+                <p><input type="text" placeholder="First.name" id=""></p>
+
+                <label for="tel">Vôtre Contact :</label>
+                <p><input type="tel" name="tel" placeholder="contact"></p>
+
+                <label for="Date">Dâte :</label>
+                <p><input type="date" name="date" id="date"></p>
+
+                <label for="heure">Heure de reservation :</label>
+                <p><input type="time" name="temp" id="temp"></p>
+
+                <label for="Nombre">Pour combien de persone</label>
+                <p><select name="nombre" id="">
+                    <option value="">10</option>
+                    <option value="">8</option>
+                    <option value="">6</option>
+                    <option value="">4</option>
+                    <option value="">2</option>
+                    <option value="">1</option>
+                    <option value="">0</option>
+                </select></p>
+
+                <label for="les plats">Plat(s) Réservé :</label>
+                <p><select name="plats" id="">
+                    <option value="">Salade au miel et noix de cola</option>
+                    <option value="">Soupe legère au miel et au gingembre</option>
+                    <option value="">Filet de poulet au miel et frits</option>
+                    <option value="">Côte de porc frits et caramiélisée</option>
+                    <option value="">AUCUN</option>
+                </select></p>
+
+                <label for="Desserts">Desserts voulu :</label>
+                <p><select name="desserts" id="">
+                    <option value="">Gateaux au miel et citron</option>
+                    <option value="">Crême brulée à la vanille</option>
+                    <option value="">Limonade buble-up</option>
+                    <option value="">Yaourt laitié</option>
+                    <option value="">jus d'Orangina</option>
+                    <option value="">AUCUN</option>
+                </select></p> 
+                <br>
+                <p>
+                    <button type="submit">Reserver</button>&ThinSpace;&ThinSpace;&ThinSpace;
+                <button type="reset">Annuler la Reservation</button>
+                </p>
+            </form>
+        </div>
+    </section>
+<br><br>
+      <!--Pied-de-Page-->
+      <nav>
+        <ul>
+          <li><a href="acceuil.html">Retour à l'acceuil</a></li><br> &ThinSpace;&ThinSpace;&ThinSpace;
+          <li><a href="Faq.html">FAQ</a></li><br>&ThinSpace;&ThinSpace;&ThinSpace;
+          <li><a href="newletter.html">New-letter</a></li>
+        </ul>
+      </nav><br><br>
+      
+      <footer>
+        <p>&copy;@2025 (PALM-MIEL) - Tous droits Reservés</p>
+    </footer>
+</body>
+</html>
